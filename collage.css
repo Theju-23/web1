@@ -1,0 +1,112 @@
+body, h1, h2, p, ul, li {
+    margin: 2px;
+    padding: 0;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("5.jpg");
+    }
+    header {
+    background-color: #be5a08bd;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .logo img {
+    max-width: 100px;
+    height: auto;
+    }
+    .header-content {
+    text-align: left;
+    }
+    nav {
+    background-color: #af6b04ab;
+   
+    }
+    .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    }
+    .menu li {
+    margin: 1rem;
+    position: relative;
+    }
+    .menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    }
+    .menu a:hover {
+    color: #000000;
+    }
+    .submenu-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #bb6606c4;
+    z-index: 1;
+    }
+    .submenu:hover .submenu-content {
+    display: block;
+    }
+
+    footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #000000;
+    color: #fff;
+    }
+    .cse img{
+        width: fit-content;
+    }
+    .ise img{
+        width: fit-content;
+    }
+    .m{
+        margin: center;
+       
+        color: rgb(12, 12, 12);
+    }
+    .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 2px;
+    }
+    @media screen and (max-width: 768px) {
+    header {
+    flex-direction: column;
+    }
+    .logo {
+    margin-bottom: 1rem;
+    }
+.department {
+    margin-bottom: 2rem;
+    }
+    .footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #9ba30fd8;
+    color: #fff;
+    }
+    .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 2px;
+    }
+    @media screen and (max-width: 768px) {
+    header {
+    flex-direction: column;
+    }
+    .logo {
+    margin-bottom: 1rem;
+    }
+    }
+}
+    
